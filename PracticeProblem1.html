@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTS-8">
+        <title>Invoice Chart</title>
+
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            td, th{
+                padding-right: 64px;
+                padding-left: 12px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+            th{
+                background-color: lightblue;
+                width: auto;
+                text-align: left;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    
+    <body style="background-color: aliceblue;">
+        <table border="2" style="margin-left: auto; margin-right: auto;" >
+            <tr>
+                <th colspan="40">
+                    Invoice#1234ABC
+                </th>
+                <th colspan="12">
+                    18-sep-2023
+                </th>
+            </tr>
+            <tr>
+                <td colspan="36">
+                    <b>PayTo:</b><br>
+                    The Teck Park<br>
+                    123 Willow Streat<br>
+                    Boulevard, LA-567892
+                </td>
+                <td colspan="16">
+                    <b>Customer:</b><br>
+                    John Lark<br>
+                    Dummy Appartments<br>
+                    276 Main Street<br>
+                    Boulevard, LA-567892
+                </td>
+                <tr>
+                    <th colspan="32">
+                        Name/Discription
+                    </th>
+                    <th>
+                        Qty.
+                    </th colspan="8">
+                    <th>
+                        MRP
+                    </th>
+                    <th colspan="20">Amount</th>
+                </tr>
+                <tr>
+                    <td colspan="32">
+                        Biryani
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        400
+                    </td>
+                    <td colspan="20">
+                        1200
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="32">
+                        Chocolate Shake
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        200
+                    </td>
+                    <td colspan="20">
+                        600
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="40"><b>SubTotal:</b></th>
+                    <td>1800</td>
+                </tr>
+                <tr>
+                    <th colspan="36"><b>Tax:</b></th>
+                    <td>10%</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+                    <th colspan="40"><b>Grand Total:</b></th>
+                    <td>Rs 1980</td>
+                </tr>
+        </table>
+    </body>
+</html>
